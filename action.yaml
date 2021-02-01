@@ -3,7 +3,7 @@ description: 'Run numen packager'
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  entrypoint: '/usr/local/bin/package'
+  entrypoint: '/usr/local/bin/numenpackage'
   args:
     - --loglevel
     - debug
