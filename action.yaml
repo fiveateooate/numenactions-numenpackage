@@ -1,7 +1,8 @@
 name: 'NumenActions OnPush'
 description: 'Do all the things need for a push'
 runs:
-  using: 'composite'
+  using: 'docker'
+  image: 'Dockerfile'
   steps:
     - uses: actions/checkout@v2
       with:
