@@ -2,7 +2,7 @@ name: 'NumenActions NumenPackage'
 description: 'Run numen packager'
 runs:
   using: 'docker'
-  image: 'ghcr.io/fiveateooate/numenactions:latest'
+  image: 'docker://ghcr.io/fiveateooate/numenactions:latest'
   entrypoint: '/usr/local/bin/numencli'
   args:
     - --loglevel
